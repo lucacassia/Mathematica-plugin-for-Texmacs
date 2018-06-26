@@ -1,0 +1,34 @@
+150c150
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+158c158
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+165c165
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+182c182
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+190,191c190,191
+<       MLDisownSymbol(link,symbol);
+<       MLDisownString(link,result);
+---
+>       MLReleaseSymbol(link,symbol);
+>       MLReleaseString(link,result);
+207c207
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+221c221
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
+230c230
+<       MLDisownString(link,result);
+---
+>       MLReleaseString(link,result);
